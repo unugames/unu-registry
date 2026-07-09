@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="GameStation icon">
+  <rect width="512" height="512" rx="112" fill="#07172f"/>
+  <circle cx="256" cy="256" r="118" fill="none" stroke="#ffffff" stroke-width="34"/>
+  <circle cx="256" cy="256" r="174" fill="none" stroke="#2f8cff" stroke-width="10" opacity=".75"/>
+  <path d="M156 356 356 156" stroke="#f7fbff" stroke-width="26" stroke-linecap="round"/>
+</svg>

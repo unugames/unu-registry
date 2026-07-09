@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="NexusDeck icon">
+  <rect width="256" height="256" rx="20" fill="#07090d"/>
+  <rect x="28" y="36" width="34" height="184" fill="#141920"/>
+  <rect x="82" y="42" width="52" height="70" fill="#26313a"/>
+  <rect x="146" y="42" width="82" height="70" fill="#39424a"/>
+  <rect x="82" y="126" width="68" height="88" fill="#1e262e"/>
+  <rect x="162" y="126" width="66" height="88" fill="#2e3841"/>
+  <rect x="74" y="118" width="86" height="104" fill="none" stroke="#ff1687" stroke-width="8"/>
+  <rect x="28" y="190" width="34" height="18" fill="#ff1687"/>
+</svg>

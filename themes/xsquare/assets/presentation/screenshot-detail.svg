@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="XSquare detail screenshot">
+  <rect width="1600" height="900" fill="#101814"/>
+  <rect width="1600" height="900" fill="#107c10" opacity=".07"/>
+  <rect x="112" y="142" width="286" height="382" rx="8" fill="#2e3b32"/>
+  <text x="470" y="342" fill="#f4fff7" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="700">Game title</text>
+  <rect x="474" y="416" width="120" height="56" rx="6" fill="#107c10"/>
+  <rect x="610" y="416" width="178" height="56" rx="6" fill="#2e3b32"/>
+  <rect x="474" y="546" width="720" height="22" rx="4" fill="#a9b8ad" opacity=".75"/>
+  <rect x="474" y="590" width="600" height="22" rx="4" fill="#a9b8ad" opacity=".45"/>
+  <rect x="474" y="690" width="220" height="124" rx="8" fill="#223027"/>
+  <rect x="720" y="690" width="220" height="124" rx="8" fill="#223027"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="XSquare cover">
+  <rect width="1200" height="675" fill="#101814"/>
+  <circle cx="1060" cy="70" r="310" fill="#107c10" opacity=".2"/>
+  <g transform="translate(90 96)">
+    <rect width="175" height="128" rx="8" fill="#107c10"/>
+    <rect x="198" width="175" height="128" rx="8" fill="#2e3b32"/>
+    <rect x="396" width="175" height="128" rx="8" fill="#2e3b32"/>
+    <rect y="152" width="373" height="128" rx="8" fill="#223027"/>
+    <rect x="396" y="152" width="175" height="128" rx="8" fill="#7cff64"/>
+  </g>
+  <text x="90" y="512" fill="#f4fff7" font-family="Segoe UI, Arial, sans-serif" font-size="86" font-weight="700">XSquare</text>
+  <text x="94" y="568" fill="#a9b8ad" font-family="Segoe UI, Arial, sans-serif" font-size="32">Dashboard tiles and green focus</text>
+</svg>
