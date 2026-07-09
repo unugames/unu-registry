@@ -1,0 +1,34 @@
+{
+  "id": "igdb",
+  "name": "IGDB",
+  "kind": "metadata",
+  "apiVersion": "v1",
+  "entry": "index.js",
+  "capabilities": {
+    "http": {
+      "hosts": ["api.igdb.com", "id.twitch.tv"]
+    }
+  },
+  "provides": ["description", "genre", "developer", "releaseYear", "rating", "cover", "background"],
+  "settings": [
+    {
+      "key": "clientId",
+      "label": "Twitch Client ID",
+      "type": "string",
+      "required": true,
+      "help": "Create an app at dev.twitch.tv/console/apps. IGDB authenticates through Twitch."
+    },
+    {
+      "key": "clientSecret",
+      "label": "Twitch Client Secret",
+      "type": "secret",
+      "required": true,
+      "secret": true,
+      "help": "The client secret from your Twitch developer app."
+    }
+  ],
+  "presentation": {
+    "icon": "assets/icon.png",
+    "cover": "assets/cover.png"
+  }
+}

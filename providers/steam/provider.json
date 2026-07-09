@@ -1,0 +1,42 @@
+{
+  "id": "steam",
+  "name": "Steam",
+  "kind": "library",
+  "apiVersion": "v1",
+  "entry": "index.js",
+  "capabilities": {
+    "fs": { "scopes": [] },
+    "registry": { "keys": ["HKCU\\Software\\Valve\\Steam"] },
+    "knownPaths": { "names": ["home", "appData"] },
+    "http": { "hosts": ["api.steampowered.com"] },
+    "webview": { "urls": ["store.steampowered.com"] }
+  },
+  "operations": ["discover", "launch", "authenticate", "install", "uninstall"],
+  "settings": [
+    {
+      "key": "steamPath",
+      "label": "Steam install folder",
+      "type": "string",
+      "required": false,
+      "secret": false
+    },
+    {
+      "key": "steamAccessToken",
+      "label": "Steam access token",
+      "type": "string",
+      "required": false,
+      "secret": true
+    },
+    {
+      "key": "steamId",
+      "label": "Steam ID",
+      "type": "string",
+      "required": false,
+      "secret": false
+    }
+  ],
+  "presentation": {
+    "icon": "assets/icon.png",
+    "cover": "assets/cover.jpg"
+  }
+}

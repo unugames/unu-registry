@@ -1,0 +1,31 @@
+{
+  "id": "mock-meta-rich",
+  "name": "Mock (metadata rich)",
+  "kind": "metadata",
+  "apiVersion": "v1",
+  "entry": "index.js",
+  "provides": ["genre", "developer", "rating", "description", "releaseYear"],
+  "capabilities": {
+    "http": { "hosts": ["api.mock-meta.example"] }
+  },
+  "settings": [
+    {
+      "key": "apiKey",
+      "label": "API key",
+      "type": "secret",
+      "required": true,
+      "secret": true
+    },
+    {
+      "key": "region",
+      "label": "Region",
+      "type": "string",
+      "required": false,
+      "secret": false
+    }
+  ],
+  "presentation": {
+    "icon": "assets/icon.jpg",
+    "cover": "assets/cover.jpg"
+  }
+}

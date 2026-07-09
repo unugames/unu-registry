@@ -1,0 +1,13 @@
+{
+  "id": "mock-meta-fail",
+  "name": "Mock (metadata fail)",
+  "kind": "metadata",
+  "apiVersion": "v1",
+  "entry": "index.js",
+  "provides": ["genre"],
+  "capabilities": {},
+  "presentation": {
+    "icon": "assets/icon.jpg",
+    "cover": "assets/cover.jpg"
+  }
+}

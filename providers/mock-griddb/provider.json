@@ -1,0 +1,26 @@
+{
+  "id": "mock-griddb",
+  "name": "Mock GridDB (art fixture)",
+  "kind": "metadata",
+  "apiVersion": "v1",
+  "entry": "index.js",
+  "capabilities": {
+    "http": {
+      "hosts": []
+    }
+  },
+  "provides": ["cover", "background", "logo"],
+  "settings": [
+    {
+      "key": "apiKey",
+      "label": "API key (mock)",
+      "type": "secret",
+      "required": false,
+      "secret": true
+    }
+  ],
+  "presentation": {
+    "icon": "assets/icon.jpg",
+    "cover": "assets/cover.jpg"
+  }
+}

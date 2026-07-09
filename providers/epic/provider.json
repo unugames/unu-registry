@@ -1,0 +1,77 @@
+{
+  "id": "epic",
+  "name": "Epic Games Store",
+  "kind": "library",
+  "apiVersion": "v1",
+  "entry": "index.js",
+  "capabilities": {
+    "fs": {
+      "scopes": []
+    },
+    "registry": {
+      "keys": [
+        "HKLM\\SOFTWARE\\WOW6432Node\\Epic Games\\EpicGamesLauncher"
+      ]
+    },
+    "knownPaths": {
+      "names": [
+        "programData"
+      ]
+    },
+    "http": {
+      "hosts": [
+        "account-public-service-prod.ol.epicgames.com",
+        "account-public-service-prod03.ol.epicgames.com",
+        "library-service.live.use1a.on.epicgames.com",
+        "launcher-public-service-prod06.ol.epicgames.com",
+        "catalog-public-service-prod06.ol.epicgames.com"
+      ]
+    },
+    "webview": {
+      "urls": [
+        "www.epicgames.com"
+      ]
+    }
+  },
+  "operations": [
+    "discover",
+    "launch",
+    "authenticate",
+    "install",
+    "uninstall"
+  ],
+  "settings": [
+    {
+      "key": "epicDataPath",
+      "label": "Epic Games Launcher data folder",
+      "type": "string",
+      "required": false,
+      "secret": false
+    },
+    {
+      "key": "epicAuthToken",
+      "label": "Epic access token",
+      "type": "string",
+      "required": false,
+      "secret": true
+    },
+    {
+      "key": "epicRefreshToken",
+      "label": "Epic refresh token",
+      "type": "string",
+      "required": false,
+      "secret": true
+    },
+    {
+      "key": "epicAccountId",
+      "label": "Epic account ID",
+      "type": "string",
+      "required": false,
+      "secret": false
+    }
+  ],
+  "presentation": {
+    "icon": "icon.png",
+    "cover": "cover.jpg"
+  }
+}

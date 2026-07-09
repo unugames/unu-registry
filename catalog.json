@@ -1,0 +1,649 @@
+{
+  "packages": [
+    {
+      "type": "provider",
+      "id": "steam",
+      "manifestId": "steam",
+      "name": "Steam",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Discover, authenticate, and launch games from a local Steam installation.",
+      "installSource": {
+        "path": "providers/steam"
+      },
+      "provider": {
+        "kind": "library",
+        "recommendedForOnboarding": true,
+        "tags": [
+          "storefront",
+          "library",
+          "launch"
+        ],
+        "categories": [
+          "Library"
+        ]
+      },
+      "description": "Reads your local Steam installation and authenticated Steam library through unu's provider sandbox. Launch, install, and uninstall actions are still described by the provider and executed by the core.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/archives/steam.unu",
+        "digest": "ccb00ec71f4833456ea67a4f32736dd4a4688d1150d21f5296f3624989b4cc94"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "steamgriddb",
+      "manifestId": "steamgriddb",
+      "name": "SteamGridDB",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Fetch richer cover, background, and logo art from SteamGridDB.",
+      "installSource": {
+        "path": "providers/steamgriddb"
+      },
+      "provider": {
+        "kind": "metadata",
+        "recommendedForOnboarding": true,
+        "tags": [
+          "metadata",
+          "art",
+          "covers"
+        ],
+        "categories": [
+          "Metadata"
+        ]
+      },
+      "description": "Uses your SteamGridDB API key to enrich discovered games with cover, background, and logo art. The provider returns asset references; unu resolves and caches the images.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/archives/steamgriddb.unu",
+        "digest": "364ecf50a8de0efbc25e750f8a112e6131c58c92c48ae43bf7ef979ca82dbf59"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "igdb",
+      "manifestId": "igdb",
+      "name": "IGDB",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Fetch descriptions, genres, release info, screenshots, and video trailers from IGDB.",
+      "installSource": {
+        "path": "providers/igdb"
+      },
+      "provider": {
+        "kind": "metadata",
+        "recommendedForOnboarding": true,
+        "tags": [
+          "metadata",
+          "descriptions",
+          "screenshots",
+          "videos"
+        ],
+        "categories": [
+          "Metadata"
+        ]
+      },
+      "description": "Uses a Twitch app-access token to enrich discovered games with descriptions, genres, developers, release years, ratings, cover/background art, screenshots, and video trailers for the game detail view. The provider returns asset references and video descriptors; unu resolves, caches, and serves the images.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/archives/igdb.unu",
+        "digest": "29f995e75011823f44d627e959949c2b2ba327a2efd34a017c552e037658e09b"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "epic",
+      "manifestId": "epic",
+      "name": "Epic Games Store",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Discover, authenticate, and launch games from Epic Games Store.",
+      "installSource": {
+        "path": "providers/epic"
+      },
+      "provider": {
+        "kind": "library",
+        "recommendedForOnboarding": true,
+        "tags": [
+          "storefront",
+          "library",
+          "launch"
+        ],
+        "categories": [
+          "Library"
+        ]
+      },
+      "description": "Reads local Epic Games Launcher manifests for installed games and overlays the authenticated owned library through Epic services. Launch, install, and uninstall actions are descriptions returned to the core launch choke point.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/archives/epic.unu",
+        "digest": "cdd9a41dafb8a4f2f840b768f08735d5d760b4d696daa54b9809b38361c01e8b"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "mock-fast",
+      "manifestId": "mock-fast",
+      "name": "Mock (fast)",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Offline development fixture for fast library discovery.",
+      "installSource": {
+        "path": "providers/mock-fast"
+      },
+      "provider": {
+        "kind": "library",
+        "recommendedForOnboarding": false,
+        "tags": [
+          "fixture",
+          "offline",
+          "library"
+        ],
+        "categories": [
+          "Development"
+        ]
+      },
+      "description": "A deterministic local fixture used for development and tests. It is part of the official local catalog but is not recommended during first-run onboarding.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/archives/mock-fast.unu",
+        "digest": "396cd5193001a3a20b99e3f3750315297a3886e8d993dec0d7c835863a448df5"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "mock-slow",
+      "manifestId": "mock-slow",
+      "name": "Mock (slow)",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Offline development fixture for slow library discovery.",
+      "installSource": {
+        "path": "providers/mock-slow"
+      },
+      "provider": {
+        "kind": "library",
+        "recommendedForOnboarding": false,
+        "tags": [
+          "fixture",
+          "offline",
+          "library",
+          "timing"
+        ],
+        "categories": [
+          "Development"
+        ]
+      },
+      "description": "Streams deterministic library entries with real timing gaps so progressive rendering and cancellation behavior can be tested from the plugin manager.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/archives/mock-slow.unu",
+        "digest": "4af81e60bdb6585191620b72cbe7a32b7681b0a581d5adeeb44ff09085d7e76e"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "mock-fail",
+      "manifestId": "mock-fail",
+      "name": "Mock (fail)",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Offline development fixture for failing library discovery.",
+      "installSource": {
+        "path": "providers/mock-fail"
+      },
+      "provider": {
+        "kind": "library",
+        "recommendedForOnboarding": false,
+        "tags": [
+          "fixture",
+          "offline",
+          "library",
+          "failure"
+        ],
+        "categories": [
+          "Development"
+        ]
+      },
+      "description": "Exercises provider failure isolation by emitting partial library results and then returning an error.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/archives/mock-fail.unu",
+        "digest": "c248110518d28f9ee38e01dc2f46dcf2c2ec44705ef99bc7eb929c9d42007fb8"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "mock-rich-inline",
+      "manifestId": "mock-rich-inline",
+      "name": "Mock (rich inline)",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Offline development fixture for Steam-like inline metadata.",
+      "installSource": {
+        "path": "providers/mock-rich-inline"
+      },
+      "provider": {
+        "kind": "library",
+        "recommendedForOnboarding": false,
+        "tags": [
+          "fixture",
+          "offline",
+          "library",
+          "metadata"
+        ],
+        "categories": [
+          "Development"
+        ]
+      },
+      "description": "Returns library entries with rich inline metadata so the one merge path can be exercised without a storefront dependency.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/archives/mock-rich-inline.unu",
+        "digest": "61b17143359d277824d2401a331ec779a7379985d18863b5c5f2d4220cfcf1e9"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "mock-auth",
+      "manifestId": "mock-auth",
+      "name": "Mock (authentication)",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Offline development fixture for provider authentication.",
+      "installSource": {
+        "path": "providers/mock-auth"
+      },
+      "provider": {
+        "kind": "library",
+        "recommendedForOnboarding": false,
+        "tags": [
+          "fixture",
+          "offline",
+          "library",
+          "auth"
+        ],
+        "categories": [
+          "Development"
+        ]
+      },
+      "description": "Exercises the host-brokered authentication path and the mock-auth webview capability without touching a real service.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/archives/mock-auth.unu",
+        "digest": "20ab7d3dd07a022935d6d79ae71f61e17b228226694b1879273939d443ddf4bd"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "mock-meta-rich",
+      "manifestId": "mock-meta-rich",
+      "name": "Mock (metadata rich)",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Offline development fixture for rich metadata enrichment.",
+      "installSource": {
+        "path": "providers/mock-meta-rich"
+      },
+      "provider": {
+        "kind": "metadata",
+        "recommendedForOnboarding": false,
+        "tags": [
+          "fixture",
+          "offline",
+          "metadata",
+          "settings"
+        ],
+        "categories": [
+          "Development"
+        ]
+      },
+      "description": "Requires a mock API key and returns rich metadata fields so settings, secrets, and enrichment can be tested together.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/archives/mock-meta-rich.unu",
+        "digest": "39106dd74d4a9e14ac9375ff4752335a2a393fa41c317cc0d976df9201a0e562"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "mock-meta-fail",
+      "manifestId": "mock-meta-fail",
+      "name": "Mock (metadata fail)",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Offline development fixture for failing metadata enrichment.",
+      "installSource": {
+        "path": "providers/mock-meta-fail"
+      },
+      "provider": {
+        "kind": "metadata",
+        "recommendedForOnboarding": false,
+        "tags": [
+          "fixture",
+          "offline",
+          "metadata",
+          "failure"
+        ],
+        "categories": [
+          "Development"
+        ]
+      },
+      "description": "Exercises metadata provider failure isolation without blocking discovery, launch, or other metadata sources.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/archives/mock-meta-fail.unu",
+        "digest": "a6aaa005edd627fdb001a1007c364fade4604df0fba783850a0792a44de31309"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "mock-no-match",
+      "manifestId": "mock-no-match",
+      "name": "Mock (no match)",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Offline development fixture for metadata no-match behavior.",
+      "installSource": {
+        "path": "providers/mock-no-match"
+      },
+      "provider": {
+        "kind": "metadata",
+        "recommendedForOnboarding": false,
+        "tags": [
+          "fixture",
+          "offline",
+          "metadata",
+          "matching"
+        ],
+        "categories": [
+          "Development"
+        ]
+      },
+      "description": "Returns no matching metadata so enrichment can prove empty results degrade cleanly.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/archives/mock-no-match.unu",
+        "digest": "a600a68c575873380c51a7b881b0496bc8e2f150a12db89f7faf47349635a50e"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "mock-griddb",
+      "manifestId": "mock-griddb",
+      "name": "Mock GridDB (art fixture)",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Offline development fixture for art enrichment.",
+      "installSource": {
+        "path": "providers/mock-griddb"
+      },
+      "provider": {
+        "kind": "metadata",
+        "recommendedForOnboarding": false,
+        "tags": [
+          "fixture",
+          "offline",
+          "metadata",
+          "art"
+        ],
+        "categories": [
+          "Development"
+        ]
+      },
+      "description": "Returns deterministic art references for known Steam ids so asset resolution can be tested without SteamGridDB.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/archives/mock-griddb.unu",
+        "digest": "1b79ee06696a583e146626b2ff663c02df7432e48c3c7081606e7b1a229d3723"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "mock-media",
+      "manifestId": "mock-media",
+      "name": "Mock (offline detail media)",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Offline development fixture for detail media enrichment.",
+      "installSource": {
+        "path": "providers/mock-media"
+      },
+      "provider": {
+        "kind": "metadata",
+        "recommendedForOnboarding": false,
+        "tags": [
+          "fixture",
+          "offline",
+          "metadata",
+          "media"
+        ],
+        "categories": [
+          "Development"
+        ]
+      },
+      "description": "Returns screenshots and video descriptors so game detail media can be exercised without a network dependency.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/archives/mock-media.unu",
+        "digest": "8240138f77a74646c337149800e8dc7bf3dc18e9b34d986f81dca69ca7f65658"
+      }
+    },
+    {
+      "type": "theme",
+      "id": "deck",
+      "manifestId": "deck",
+      "name": "Deck",
+      "version": "0.1.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "A dense couch dashboard with hero art, shelves, and gamepad-first controls.",
+      "installSource": {
+        "path": "themes/deck/dist"
+      },
+      "theme": {
+        "tags": [
+          "couch",
+          "hero",
+          "dark"
+        ],
+        "categories": [
+          "Official"
+        ],
+        "icon": "assets/presentation/icon.png",
+        "cover": "assets/presentation/cover.png",
+        "screenshots": [
+          "assets/presentation/screenshot-library.png",
+          "assets/presentation/screenshot-detail.png"
+        ]
+      },
+      "description": "Deck uses large media, compact metadata, and quick library filters for a console-style launcher surface.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/archives/deck.unu",
+        "digest": "b48d4973c9c4bdd6b5f0b2064621ed1e552a78b0db65dcb9b6fd4c139814d284"
+      }
+    },
+    {
+      "type": "theme",
+      "id": "grey",
+      "manifestId": "grey",
+      "name": "Grey (reference)",
+      "version": "0.1.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "A quiet reference layout with compact cards and restrained contrast.",
+      "installSource": {
+        "path": "themes/grey"
+      },
+      "theme": {
+        "tags": [
+          "reference",
+          "compact",
+          "neutral"
+        ],
+        "categories": [
+          "Official",
+          "Reference"
+        ],
+        "icon": "assets/presentation/icon.png",
+        "cover": "assets/presentation/cover.png",
+        "screenshots": [
+          "assets/presentation/screenshot-library.png",
+          "assets/presentation/screenshot-detail.png"
+        ]
+      },
+      "description": "Grey is a minimal system-style theme for validating layout, focus, and settings surfaces without decorative treatment.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/archives/grey.unu",
+        "digest": "f7a24100ea7bfd6ab7a6ddcf72ca99b0bd0cc2bb3dcf83ac9d1fa6348e8cd4d0"
+      }
+    },
+    {
+      "type": "theme",
+      "id": "gamestation",
+      "manifestId": "gamestation",
+      "name": "GameStation",
+      "version": "0.1.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "A PS5-inspired theme where the selected game's art becomes the room and the chrome is colourless glass.",
+      "installSource": {
+        "path": "themes/gamestation/dist"
+      },
+      "theme": {
+        "tags": [
+          "console",
+          "cinematic",
+          "playstation",
+          "immersive"
+        ],
+        "categories": [
+          "Official",
+          "Console-inspired"
+        ],
+        "icon": "assets/presentation/icon.svg",
+        "cover": "assets/presentation/cover.svg",
+        "screenshots": [
+          "assets/presentation/screenshot-library.svg",
+          "assets/presentation/screenshot-detail.svg"
+        ]
+      },
+      "description": "GameStation dissolves into the cover art: the game you point at fills the whole screen, the chrome is neutral glass that gets out of the way, and a square app-tile row floats up top. Calm, immersive, smooth — every bit of colour comes from the art, never the shell.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/archives/gamestation.unu",
+        "digest": "7a523e28dc59c8406e7ff5f95db6238c96a68c6d861231e3c9b774f0fcf2bdb8"
+      }
+    },
+    {
+      "type": "theme",
+      "id": "xsquare",
+      "manifestId": "xsquare",
+      "name": "XSquare",
+      "version": "0.1.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "An Xbox-inspired system dashboard: one decisive green, squared chrome, and a fast horizontal blade strip.",
+      "installSource": {
+        "path": "themes/xsquare"
+      },
+      "theme": {
+        "tags": [
+          "console",
+          "system",
+          "xbox",
+          "green"
+        ],
+        "categories": [
+          "Official",
+          "Console-inspired"
+        ],
+        "icon": "assets/presentation/icon.svg",
+        "cover": "assets/presentation/cover.svg",
+        "screenshots": [
+          "assets/presentation/screenshot-library.svg",
+          "assets/presentation/screenshot-detail.svg"
+        ]
+      },
+      "description": "XSquare sits on top of your cover art like an operating system — squared geometry, a single confident green for focus and active states, wide landscape blade tiles in a horizontal strip, and a dense, left-anchored readout. Motion snaps rather than glides. It renders only real game data.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/archives/xsquare.unu",
+        "digest": "f8c683daf0fe72a5fe6cee46c3c73608cc9d0d36c539e3295aadb3bf0ec13a1c"
+      }
+    },
+    {
+      "type": "theme",
+      "id": "nexusdeck",
+      "manifestId": "nexusdeck",
+      "name": "NexusDeck",
+      "version": "0.1.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "A Heroic-inspired TV dashboard with a vertical system rail, poster wall library, and full-bleed game detail art.",
+      "installSource": {
+        "path": "themes/nexusdeck"
+      },
+      "theme": {
+        "tags": [
+          "console",
+          "heroic",
+          "tv",
+          "poster-grid"
+        ],
+        "categories": [
+          "Official",
+          "Console-inspired"
+        ],
+        "icon": "assets/presentation/icon.svg",
+        "cover": "assets/presentation/cover.svg",
+        "screenshots": [
+          "assets/presentation/screenshot-library.svg",
+          "assets/presentation/screenshot-detail.svg"
+        ]
+      },
+      "description": "NexusDeck blends the reference screens into a couch launcher: a dim left rail, centered poster grid, vivid magenta focus, glassy footer chrome, and cinematic detail pages where real game art carries the scene.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/archives/nexusdeck.unu",
+        "digest": "93a3f43b7a526885b5e536e67e2a6936babe26313c80538017610894c3e9bff9"
+      }
+    }
+  ]
+}

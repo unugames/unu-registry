@@ -1,0 +1,32 @@
+{
+  "id": "grey",
+  "name": "Grey (reference)",
+  "version": "0.1.0",
+  "apiVersion": "v1",
+  "entry": "index.html",
+  "presentation": {
+    "summary": "A quiet reference layout with compact cards and restrained contrast.",
+    "description": "Grey is a minimal system-style theme for validating layout, focus, and settings surfaces without decorative treatment.",
+    "author": "unu",
+    "tags": ["reference", "compact", "neutral"],
+    "categories": ["Official", "Reference"],
+    "license": "Bundled",
+    "icon": "assets/presentation/icon.png",
+    "cover": "assets/presentation/cover.png",
+    "screenshots": [
+      "assets/presentation/screenshot-library.png",
+      "assets/presentation/screenshot-detail.png"
+    ]
+  },
+  "backgroundColor": "#1c1c1f",
+  "systemStyle": {
+    "surface": "#f4f5f7",
+    "panel": "#ffffff",
+    "text": "#1a1d22",
+    "muted": "#6b7280",
+    "accent": "#4f46e5",
+    "radius": "6px",
+    "spacing": "14px",
+    "fontFamily": "system-ui, sans-serif"
+  }
+}

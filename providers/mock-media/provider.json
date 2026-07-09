@@ -1,0 +1,12 @@
+{
+  "id": "mock-media",
+  "name": "Mock (offline detail media)",
+  "kind": "metadata",
+  "apiVersion": "v1",
+  "entry": "index.js",
+  "provides": ["genre", "developer", "description", "releaseYear"],
+  "presentation": {
+    "icon": "assets/icon.jpg",
+    "cover": "assets/cover.jpg"
+  }
+}
