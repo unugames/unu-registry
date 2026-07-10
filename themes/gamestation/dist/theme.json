@@ -8,8 +8,16 @@
     "summary": "A PS5-inspired theme where the selected game's art becomes the room and the chrome is colourless glass.",
     "description": "GameStation dissolves into the cover art: the game you point at fills the whole screen, the chrome is neutral glass that gets out of the way, and a square app-tile row floats up top. Calm, immersive, smooth — every bit of colour comes from the art, never the shell.",
     "author": "unu",
-    "tags": ["console", "cinematic", "playstation", "immersive"],
-    "categories": ["Official", "Console-inspired"],
+    "tags": [
+      "console",
+      "cinematic",
+      "playstation",
+      "immersive"
+    ],
+    "categories": [
+      "Official",
+      "Console-inspired"
+    ],
     "license": "Bundled",
     "icon": "assets/presentation/icon.svg",
     "cover": "assets/presentation/cover.svg",

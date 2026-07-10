@@ -8,8 +8,14 @@
     "summary": "A dense couch dashboard with hero art, shelves, and gamepad-first controls.",
     "description": "Deck uses large media, compact metadata, and quick library filters for a console-style launcher surface.",
     "author": "unu",
-    "tags": ["couch", "hero", "dark"],
-    "categories": ["Official"],
+    "tags": [
+      "couch",
+      "hero",
+      "dark"
+    ],
+    "categories": [
+      "Official"
+    ],
     "license": "Bundled",
     "icon": "assets/presentation/icon.png",
     "cover": "assets/presentation/cover.png",

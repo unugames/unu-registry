@@ -8,8 +8,16 @@
     "summary": "A Heroic-inspired TV dashboard with a vertical system rail, poster wall library, and full-bleed game detail art.",
     "description": "NexusDeck blends the reference screens into a couch launcher: a dim left rail, centered poster grid, vivid magenta focus, glassy footer chrome, and cinematic detail pages where real game art carries the scene.",
     "author": "unu",
-    "tags": ["console", "heroic", "tv", "poster-grid"],
-    "categories": ["Official", "Console-inspired"],
+    "tags": [
+      "console",
+      "heroic",
+      "tv",
+      "poster-grid"
+    ],
+    "categories": [
+      "Official",
+      "Console-inspired"
+    ],
     "license": "Bundled",
     "icon": "assets/presentation/icon.svg",
     "cover": "assets/presentation/cover.svg",

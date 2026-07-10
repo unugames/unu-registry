@@ -8,8 +8,16 @@
     "summary": "An Xbox-inspired system dashboard: one decisive green, squared chrome, and a fast horizontal blade strip.",
     "description": "XSquare sits on top of your cover art like an operating system — squared geometry, a single confident green for focus and active states, wide landscape blade tiles in a horizontal strip, and a dense, left-anchored readout. Motion snaps rather than glides. It renders only real game data.",
     "author": "unu",
-    "tags": ["console", "system", "xbox", "green"],
-    "categories": ["Official", "Console-inspired"],
+    "tags": [
+      "console",
+      "system",
+      "xbox",
+      "green"
+    ],
+    "categories": [
+      "Official",
+      "Console-inspired"
+    ],
     "license": "Bundled",
     "icon": "assets/presentation/icon.svg",
     "cover": "assets/presentation/cover.svg",

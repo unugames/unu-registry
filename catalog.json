@@ -29,7 +29,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/providers/steam/steam.unu",
-        "digest": "ccb00ec71f4833456ea67a4f32736dd4a4688d1150d21f5296f3624989b4cc94"
+        "digest": "756a20050dd55fe6ff6bf4c1e68265ef2e07f98f2e572e1d5d8a19374fe63451"
       }
     },
     {
@@ -162,7 +162,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/deck/dist/deck.unu",
-        "digest": "b48d4973c9c4bdd6b5f0b2064621ed1e552a78b0db65dcb9b6fd4c139814d284"
+        "digest": "dbe5db54ed9c1888f33847d24edbaa6cf2631df448af108b27b248b0b4896cfa"
       }
     },
     {
@@ -199,7 +199,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/grey/grey.unu",
-        "digest": "f7a24100ea7bfd6ab7a6ddcf72ca99b0bd0cc2bb3dcf83ac9d1fa6348e8cd4d0"
+        "digest": "21581016e46f6673b5cf6a42a328bfaf59111746d60d906a3fe94ceb4ec8595c"
       }
     },
     {
@@ -237,7 +237,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/gamestation/dist/gamestation.unu",
-        "digest": "7a523e28dc59c8406e7ff5f95db6238c96a68c6d861231e3c9b774f0fcf2bdb8"
+        "digest": "2991a1cf68683f3ac474b62ff89c59a07a01116d0c543d05177bd34184735387"
       }
     },
     {
@@ -275,7 +275,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/xsquare/xsquare.unu",
-        "digest": "f8c683daf0fe72a5fe6cee46c3c73608cc9d0d36c539e3295aadb3bf0ec13a1c"
+        "digest": "381f01aebad9e4c674bbd4b36b760546bf60f315a81272b5c5a20845d49388b9"
       }
     },
     {
@@ -313,7 +313,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/nexusdeck/nexusdeck.unu",
-        "digest": "93a3f43b7a526885b5e536e67e2a6936babe26313c80538017610894c3e9bff9"
+        "digest": "4e349f7ef7cc240d473f45bb00dd0e85defc80c0aa6ae7a79369962a5ebf319d"
       }
     }
   ]

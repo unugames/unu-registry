@@ -6,10 +6,21 @@
   "entry": "index.js",
   "capabilities": {
     "http": {
-      "hosts": ["api.igdb.com", "id.twitch.tv"]
+      "hosts": [
+        "api.igdb.com",
+        "id.twitch.tv"
+      ]
     }
   },
-  "provides": ["description", "genre", "developer", "releaseYear", "rating", "cover", "background"],
+  "provides": [
+    "description",
+    "genre",
+    "developer",
+    "releaseYear",
+    "rating",
+    "cover",
+    "background"
+  ],
   "settings": [
     {
       "key": "clientId",

@@ -6,10 +6,16 @@
   "entry": "index.js",
   "capabilities": {
     "http": {
-      "hosts": ["www.steamgriddb.com"]
+      "hosts": [
+        "www.steamgriddb.com"
+      ]
     }
   },
-  "provides": ["cover", "background", "logo"],
+  "provides": [
+    "cover",
+    "background",
+    "logo"
+  ],
   "settings": [
     {
       "key": "apiKey",

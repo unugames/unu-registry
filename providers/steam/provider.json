@@ -5,13 +5,38 @@
   "apiVersion": "v1",
   "entry": "index.js",
   "capabilities": {
-    "fs": { "scopes": [] },
-    "registry": { "keys": ["HKCU\\Software\\Valve\\Steam"] },
-    "knownPaths": { "names": ["home", "appData"] },
-    "http": { "hosts": ["api.steampowered.com"] },
-    "webview": { "urls": ["store.steampowered.com"] }
+    "fs": {
+      "scopes": []
+    },
+    "registry": {
+      "keys": [
+        "HKCU\\Software\\Valve\\Steam"
+      ]
+    },
+    "knownPaths": {
+      "names": [
+        "home",
+        "appData"
+      ]
+    },
+    "http": {
+      "hosts": [
+        "api.steampowered.com"
+      ]
+    },
+    "webview": {
+      "urls": [
+        "store.steampowered.com"
+      ]
+    }
   },
-  "operations": ["discover", "launch", "authenticate", "install", "uninstall"],
+  "operations": [
+    "discover",
+    "launch",
+    "authenticate",
+    "install",
+    "uninstall"
+  ],
   "settings": [
     {
       "key": "steamPath",

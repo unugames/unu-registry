@@ -8,8 +8,15 @@
     "summary": "A quiet reference layout with compact cards and restrained contrast.",
     "description": "Grey is a minimal system-style theme for validating layout, focus, and settings surfaces without decorative treatment.",
     "author": "unu",
-    "tags": ["reference", "compact", "neutral"],
-    "categories": ["Official", "Reference"],
+    "tags": [
+      "reference",
+      "compact",
+      "neutral"
+    ],
+    "categories": [
+      "Official",
+      "Reference"
+    ],
     "license": "Bundled",
     "icon": "assets/presentation/icon.png",
     "cover": "assets/presentation/cover.png",
