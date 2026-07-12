@@ -5,6 +5,9 @@
   "apiVersion": "v1",
   "entry": "index.js",
   "capabilities": {
+    "uriSchemes": [
+      "steam"
+    ],
     "fs": {
       "scopes": []
     },

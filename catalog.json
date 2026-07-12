@@ -29,7 +29,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/providers/steam/steam.unu",
-        "digest": "756a20050dd55fe6ff6bf4c1e68265ef2e07f98f2e572e1d5d8a19374fe63451"
+        "digest": "8c2c254ed709fe64e6e464f1a60be0237a1635f4f8f62d98d8828f6aa346ab7d"
       }
     },
     {
@@ -126,7 +126,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/providers/epic/epic.unu",
-        "digest": "49a5d166ef4987b9ac1bd9b4aca5a3d461d6347bad09a07a63e4ecc823629356"
+        "digest": "95d10361f9021364c21542f90e9716e31f90de64115e5187198b9a7922479bb9"
       }
     },
     {
