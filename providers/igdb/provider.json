@@ -27,6 +27,7 @@
       "label": "Twitch Client ID",
       "type": "string",
       "required": true,
+      "secret": false,
       "help": "Create an app at dev.twitch.tv/console/apps. IGDB authenticates through Twitch."
     },
     {
