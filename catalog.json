@@ -29,7 +29,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/providers/steam/steam.unu",
-        "digest": "8c2c254ed709fe64e6e464f1a60be0237a1635f4f8f62d98d8828f6aa346ab7d"
+        "digest": "76093df3256a77dce429ee11d12683d9b21f2976cc9e9154d0c1f2479d2ddee3"
       }
     },
     {
@@ -61,7 +61,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/providers/steamgriddb/steamgriddb.unu",
-        "digest": "4bc0a62b04b66587ef2abd466478c121d33bad4b59cbebf83eec67bf16112bb2"
+        "digest": "b191bb9ff9bc6173b9848949ba367c5d071ed1209c7cec83a2c5dc2e5cf1d24c"
       }
     },
     {
@@ -94,7 +94,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/providers/igdb/igdb.unu",
-        "digest": "60db11d2ee6e75ef5dd7491f03b23fe0a12378cf94c1fdb0cf1f77a52502e97b"
+        "digest": "55cd0d45baeb80e7ea47c54c25681035fc9077c11fa1461eb9afd78eab2ecfa3"
       }
     },
     {
@@ -126,7 +126,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/providers/epic/epic.unu",
-        "digest": "95d10361f9021364c21542f90e9716e31f90de64115e5187198b9a7922479bb9"
+        "digest": "e61cd3c131defd1be5dc6c4e4058a5b5436ace324c835bc1ee8cc2e4f1fafbf9"
       }
     },
     {
@@ -162,7 +162,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/deck/dist/deck.unu",
-        "digest": "6fe75d6d316f4942f85cbc059ca675c01524bce39bd034ad880a34a9757bf24b"
+        "digest": "900dedac230f9a4d4c4ab83b85964cd9b1aa269159bd131b67650c5dbd5841b6"
       }
     },
     {
@@ -199,7 +199,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/grey/grey.unu",
-        "digest": "14df7c30a3ea14e0bfab54060516aa54456c3e67b4351894bdf1d879924864c1"
+        "digest": "c5eb5fddc06046107f9e3b47cd1388d4de324e33c06dc2b51e95f9a74dd03d4e"
       }
     },
     {
@@ -237,7 +237,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/gamestation/dist/gamestation.unu",
-        "digest": "0bd0537b860771cdb26fc21a7ca9839c52d524c1882498d798ecbd21c0f406a6"
+        "digest": "52d7f383642691e2cc735c5f289d10d916c84d3ccd0707b42f2d608158d0c3ad"
       }
     },
     {
@@ -275,7 +275,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/xsquare/xsquare.unu",
-        "digest": "e2fbbc870c092cde281162875c721d74160e4134dbff1f7f73bee2b3da8f7fe3"
+        "digest": "dd1dd6cac933b82f775e8fbe067a86e3e33228bc01ecc38fa5c81433f2d5eae7"
       }
     },
     {
@@ -313,7 +313,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/nexusdeck/nexusdeck.unu",
-        "digest": "32e69a2abec8330ffe19753b302d89889a26e978ae7c92e4608079302af9edcb"
+        "digest": "e8e0033995ac00f6067cc983346e377f551bd3d6c5e2f385b1404966bcca1854"
       }
     }
   ]
