@@ -130,6 +130,37 @@
       }
     },
     {
+      "type": "sound",
+      "id": "unu-soft",
+      "manifestId": "unu-soft",
+      "name": "Soft",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Warm, restrained focus and activation sounds for couch navigation.",
+      "installSource": {
+        "path": "sounds/unu-soft"
+      },
+      "sound": {
+        "tags": [
+          "soft",
+          "minimal",
+          "couch"
+        ],
+        "categories": [
+          "Official"
+        ],
+        "icon": "presentation/icon.svg"
+      },
+      "description": "An original two-cue sound pack with short PCM WAV feedback for focus movement and activation.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/sounds/unu-soft/unu-soft.unu",
+        "digest": "e5ec53a582afb05becfd1d20ca516d560e40b4b97022c34e14b2045eda4b9137"
+      }
+    },
+    {
       "type": "theme",
       "id": "deck",
       "manifestId": "deck",

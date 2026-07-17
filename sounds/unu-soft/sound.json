@@ -1,0 +1,32 @@
+{
+  "id": "unu-soft",
+  "name": "Soft",
+  "version": "1.0.0",
+  "apiVersion": "v1",
+  "cues": {
+    "focusMove": {
+      "asset": "audio/focus.wav"
+    },
+    "activate": {
+      "asset": "audio/activate.wav"
+    },
+    "back": {
+      "asset": "audio/back.wav"
+    }
+  },
+  "presentation": {
+    "summary": "Warm, restrained interaction sounds for couch navigation.",
+    "description": "Three short original cues tuned for quiet TV interfaces.",
+    "author": "unu",
+    "tags": [
+      "soft",
+      "minimal",
+      "couch"
+    ],
+    "categories": [
+      "Official"
+    ],
+    "license": "Bundled",
+    "icon": "presentation/icon.svg"
+  }
+}
