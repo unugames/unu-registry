@@ -94,7 +94,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/providers/igdb/igdb.unu",
-        "digest": "55cd0d45baeb80e7ea47c54c25681035fc9077c11fa1461eb9afd78eab2ecfa3"
+        "digest": "0ad09b67296148f7efc7a4601f23852c0414b2cf08175c67ab6f5a7ab3a78281"
       }
     },
     {
@@ -162,7 +162,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/deck/dist/deck.unu",
-        "digest": "900dedac230f9a4d4c4ab83b85964cd9b1aa269159bd131b67650c5dbd5841b6"
+        "digest": "0cab245ee471312e23d63af9eb5b276c956d3a751e869a2d83e09c6d7571ef70"
       }
     },
     {
@@ -199,7 +199,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/grey/grey.unu",
-        "digest": "c5eb5fddc06046107f9e3b47cd1388d4de324e33c06dc2b51e95f9a74dd03d4e"
+        "digest": "1170e29e7ec5fee4e29a4b68be838a710cbddd258fdf37223a5a4078a52ba241"
       }
     },
     {
@@ -237,7 +237,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/gamestation/dist/gamestation.unu",
-        "digest": "52d7f383642691e2cc735c5f289d10d916c84d3ccd0707b42f2d608158d0c3ad"
+        "digest": "6f9acd961e1ce369b72db51070453561ad50869f159fee400f8f049b1fdb0bac"
       }
     },
     {
@@ -275,7 +275,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/xsquare/xsquare.unu",
-        "digest": "dd1dd6cac933b82f775e8fbe067a86e3e33228bc01ecc38fa5c81433f2d5eae7"
+        "digest": "153a63845c294ce0251e32b8d69b47ee81936ce284788fd994336cb6c7249697"
       }
     },
     {
@@ -313,7 +313,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/nexusdeck/nexusdeck.unu",
-        "digest": "e8e0033995ac00f6067cc983346e377f551bd3d6c5e2f385b1404966bcca1854"
+        "digest": "f1c63ed47ae2382f0f81f3a1f1c6695dce7c490637022dca3f2ffd560837085b"
       }
     }
   ]
