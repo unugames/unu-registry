@@ -1,0 +1,40 @@
+{
+  "id": "ubisoft-connect",
+  "name": "Ubisoft Connect",
+  "kind": "library",
+  "apiVersion": "v1",
+  "entry": "index.js",
+  "capabilities": {
+    "uriSchemes": [
+      "uplay"
+    ],
+    "http": {
+      "hosts": [
+        "xely3u4lod-dsn.algolia.net"
+      ]
+    },
+    "fs": {
+      "scopes": []
+    },
+    "knownPaths": {
+      "names": [
+        "home"
+      ]
+    },
+    "registry": {
+      "keys": [
+        "HKLM\\SOFTWARE\\WOW6432Node\\Ubisoft\\Launcher"
+      ]
+    }
+  },
+  "operations": [
+    "discover",
+    "install",
+    "launch",
+    "uninstall"
+  ],
+  "presentation": {
+    "icon": "assets/icon.png",
+    "cover": "assets/cover.png"
+  }
+}

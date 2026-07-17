@@ -1,0 +1,34 @@
+{
+  "id": "microsoft-store",
+  "name": "Microsoft Store",
+  "kind": "library",
+  "apiVersion": "v1",
+  "entry": "index.js",
+  "capabilities": {
+    "uriSchemes": [
+      "ms-windows-store"
+    ],
+    "fs": {
+      "scopes": []
+    }
+  },
+  "operations": [
+    "discover",
+    "launch"
+  ],
+  "settings": [
+    {
+      "key": "installRoot",
+      "label": "Xbox app games install folder",
+      "help": "Required -- this provider only reports what this folder proves is installed. The Xbox app lets you pick which drive to install games on; \"XboxGames\" is created at that drive's root, so change this if you installed to a drive other than C:.",
+      "type": "string",
+      "required": true,
+      "default": "C:\\XboxGames",
+      "secret": false
+    }
+  ],
+  "presentation": {
+    "icon": "assets/icon.png",
+    "cover": "assets/cover.png"
+  }
+}

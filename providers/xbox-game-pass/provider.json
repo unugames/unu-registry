@@ -1,0 +1,41 @@
+{
+  "id": "xbox-game-pass",
+  "name": "Xbox Game Pass",
+  "kind": "subscription",
+  "apiVersion": "v1",
+  "entry": "index.js",
+  "capabilities": {
+    "uriSchemes": [
+      "ms-windows-store"
+    ],
+    "http": {
+      "hosts": [
+        "catalog.gamepass.com",
+        "displaycatalog.mp.microsoft.com"
+      ]
+    },
+    "fs": {
+      "scopes": []
+    }
+  },
+  "operations": [
+    "discover",
+    "launch",
+    "install"
+  ],
+  "settings": [
+    {
+      "key": "installRoot",
+      "label": "Xbox app games install folder",
+      "help": "Same local install folder as the Microsoft Store provider -- required so Xbox Game Pass can detect installed titles independently and offer Launch instead of only a Store link. The Xbox app lets you pick which drive to install games on; \"XboxGames\" is created at that drive's root, so change this if you installed to a drive other than C:.",
+      "type": "string",
+      "required": true,
+      "default": "C:\\XboxGames",
+      "secret": false
+    }
+  ],
+  "presentation": {
+    "icon": "assets/icon.png",
+    "cover": "assets/cover.png"
+  }
+}

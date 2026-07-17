@@ -1,0 +1,32 @@
+{
+  "id": "ubisoft-plus",
+  "name": "Ubisoft+",
+  "kind": "subscription",
+  "apiVersion": "v1",
+  "entry": "index.js",
+  "capabilities": {
+    "uriSchemes": [
+      "uplay"
+    ],
+    "http": {
+      "hosts": [
+        "xely3u4lod-dsn.algolia.net"
+      ]
+    },
+    "registry": {
+      "keys": [
+        "HKLM\\SOFTWARE\\WOW6432Node\\Ubisoft\\Launcher"
+      ]
+    }
+  },
+  "operations": [
+    "discover",
+    "launch",
+    "install",
+    "uninstall"
+  ],
+  "presentation": {
+    "icon": "assets/icon.png",
+    "cover": "assets/cover.png"
+  }
+}

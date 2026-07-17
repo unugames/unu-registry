@@ -130,6 +130,131 @@
       }
     },
     {
+      "type": "provider",
+      "id": "microsoft-store",
+      "manifestId": "microsoft-store",
+      "name": "Microsoft Store",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Discover locally installed Xbox and Microsoft Store games.",
+      "installSource": {
+        "path": "providers/microsoft-store"
+      },
+      "provider": {
+        "kind": "library",
+        "recommendedForOnboarding": false,
+        "tags": [
+          "storefront",
+          "library"
+        ],
+        "categories": [
+          "Library"
+        ]
+      },
+      "description": "Experimental local discovery from a user-configured Xbox app install root. Package identity, never folder or title similarity, is used for deduplication. Microsoft exposes no supported third-party ownership API, so this reports installed packages only.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/providers/microsoft-store/microsoft-store.unu",
+        "digest": "5796c5f00e3d41e1a4e4179c465dafe288839163489bd76e8a1c5c8a80957663"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "xbox-game-pass",
+      "manifestId": "xbox-game-pass",
+      "name": "Xbox Game Pass",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Show your Xbox Game Pass catalog and hand off install/launch to the Microsoft Store.",
+      "installSource": {
+        "path": "providers/xbox-game-pass"
+      },
+      "provider": {
+        "kind": "subscription",
+        "recommendedForOnboarding": false,
+        "tags": [
+          "subscription",
+          "launch"
+        ],
+        "categories": [
+          "Subscriptions"
+        ]
+      },
+      "description": "Reads the public PC Game Pass catalog without signing in. PackageIdentityName provides a hard join to Microsoft Store installs when present; Win32 titles without it remain catalog-only. Install and Launch describe Microsoft Store product-page handoffs.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/providers/xbox-game-pass/xbox-game-pass.unu",
+        "digest": "77d22a88d6cb7bab96778c97b4c8fdb14c943f54dc8685da675365ea1c0d4679"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "ubisoft-plus",
+      "manifestId": "ubisoft-plus",
+      "name": "Ubisoft+",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Show the live Ubisoft+ PC catalog and hand off install/launch to Ubisoft Connect.",
+      "installSource": {
+        "path": "providers/ubisoft-plus"
+      },
+      "provider": {
+        "kind": "subscription",
+        "recommendedForOnboarding": false,
+        "tags": [
+          "subscription",
+          "launch"
+        ],
+        "categories": [
+          "Subscriptions"
+        ]
+      },
+      "description": "Shows the live Ubisoft+ PC catalog without asserting account ownership. Install, Launch, and Uninstall describe handoffs to Ubisoft Connect; local install detection belongs to the separate Ubisoft Connect provider.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/providers/ubisoft-plus/ubisoft-plus.unu",
+        "digest": "9b5e1a0809c42fdd5c3e70bd78d0a7446fc2be0c23334d37d823d6f1bdd58047"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "ubisoft-connect",
+      "manifestId": "ubisoft-connect",
+      "name": "Ubisoft Connect",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Discover configured Ubisoft Connect installs and launch them through Ubisoft Connect.",
+      "installSource": {
+        "path": "providers/ubisoft-connect"
+      },
+      "provider": {
+        "kind": "library",
+        "recommendedForOnboarding": false,
+        "tags": [
+          "storefront",
+          "library",
+          "launch"
+        ],
+        "categories": [
+          "Library"
+        ]
+      },
+      "description": "Experimental local Ubisoft discovery. Because the current registry port cannot enumerate install subkeys, product ids must be configured explicitly; the provider then verifies each id against Ubisoft Connect's install registry and never guesses by title.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/providers/ubisoft-connect/ubisoft-connect.unu",
+        "digest": "6fcbae2352e3fdee03ea065ac48a679aa39401968d957a48e9f341a688c90bd4"
+      }
+    },
+    {
       "type": "sound",
       "id": "unu-soft",
       "manifestId": "unu-soft",
@@ -193,7 +318,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/deck/dist/deck.unu",
-        "digest": "0cab245ee471312e23d63af9eb5b276c956d3a751e869a2d83e09c6d7571ef70"
+        "digest": "f1073dbde192e781bcd42bd7455e3e4daf1cf86942242c77363fb8d0d7bc9bb3"
       }
     },
     {
@@ -230,7 +355,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/grey/grey.unu",
-        "digest": "1170e29e7ec5fee4e29a4b68be838a710cbddd258fdf37223a5a4078a52ba241"
+        "digest": "578d8b503b395e7000c0643cf9af84b8184bee9bffe0ca0159c5f368107ef5d5"
       }
     },
     {
@@ -268,7 +393,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/gamestation/dist/gamestation.unu",
-        "digest": "6f9acd961e1ce369b72db51070453561ad50869f159fee400f8f049b1fdb0bac"
+        "digest": "f57622a91b1aaceb66105eb3a0400db763653564e14b83ae6b585caa220e8c31"
       }
     },
     {
@@ -306,7 +431,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/xsquare/xsquare.unu",
-        "digest": "153a63845c294ce0251e32b8d69b47ee81936ce284788fd994336cb6c7249697"
+        "digest": "781d66e01bf76cf2decb473003e02944837f27a02e538162297a2862df9f3146"
       }
     },
     {
@@ -344,7 +469,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/nexusdeck/nexusdeck.unu",
-        "digest": "f1c63ed47ae2382f0f81f3a1f1c6695dce7c490637022dca3f2ffd560837085b"
+        "digest": "a9fa3c0c1cd782fa471570105d6fcfc1a96ca2b9117a3f987d2bece3961f204a"
       }
     }
   ]
