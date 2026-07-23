@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="XSquare icon">
-  <rect width="512" height="512" rx="48" fill="#101814"/>
-  <rect x="96" y="96" width="136" height="136" rx="14" fill="#107c10"/>
-  <rect x="280" y="96" width="136" height="136" rx="14" fill="#2e3b32"/>
-  <rect x="96" y="280" width="136" height="136" rx="14" fill="#2e3b32"/>
-  <rect x="280" y="280" width="136" height="136" rx="14" fill="#7cff64"/>
-</svg>

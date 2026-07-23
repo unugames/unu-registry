@@ -94,7 +94,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/providers/igdb/igdb.unu",
-        "digest": "0ad09b67296148f7efc7a4601f23852c0414b2cf08175c67ab6f5a7ab3a78281"
+        "digest": "d92565d0595566320fc31f5260625c018fce0368a7a8ce7740a5c0bee425b288"
       }
     },
     {
@@ -157,7 +157,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/providers/microsoft-store/microsoft-store.unu",
-        "digest": "5796c5f00e3d41e1a4e4179c465dafe288839163489bd76e8a1c5c8a80957663"
+        "digest": "00cc000edc4df0592f0ecad57f5d88abe40c3cdf573a9f3cc40f9b49530d5591"
       }
     },
     {
@@ -251,7 +251,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/providers/ubisoft-connect/ubisoft-connect.unu",
-        "digest": "6fcbae2352e3fdee03ea065ac48a679aa39401968d957a48e9f341a688c90bd4"
+        "digest": "f282a9aa349d9a1ae69e9a968e95923e2c41beb455dabacf57759c0c0f00fbc7"
       }
     },
     {
@@ -290,7 +290,7 @@
       "id": "deck",
       "manifestId": "deck",
       "name": "Deck",
-      "version": "0.1.0",
+      "version": "0.1.4",
       "apiVersion": "v1",
       "trust": "official",
       "maintainer": "unu",
@@ -318,7 +318,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/deck/dist/deck.unu",
-        "digest": "f1073dbde192e781bcd42bd7455e3e4daf1cf86942242c77363fb8d0d7bc9bb3"
+        "digest": "e99150a4638434effcf37728a50952269388dc24a2a8fe5ebe19d9e47db5eed3"
       }
     },
     {
@@ -326,7 +326,7 @@
       "id": "grey",
       "manifestId": "grey",
       "name": "Grey (reference)",
-      "version": "0.1.0",
+      "version": "0.1.2",
       "apiVersion": "v1",
       "trust": "official",
       "maintainer": "unu",
@@ -355,121 +355,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/grey/grey.unu",
-        "digest": "578d8b503b395e7000c0643cf9af84b8184bee9bffe0ca0159c5f368107ef5d5"
-      }
-    },
-    {
-      "type": "theme",
-      "id": "gamestation",
-      "manifestId": "gamestation",
-      "name": "GameStation",
-      "version": "0.1.0",
-      "apiVersion": "v1",
-      "trust": "official",
-      "maintainer": "unu",
-      "summary": "A PS5-inspired theme where the selected game's art becomes the room and the chrome is colourless glass.",
-      "installSource": {
-        "path": "themes/gamestation/dist"
-      },
-      "theme": {
-        "tags": [
-          "console",
-          "cinematic",
-          "playstation",
-          "immersive"
-        ],
-        "categories": [
-          "Official",
-          "Console-inspired"
-        ],
-        "icon": "assets/presentation/icon.svg",
-        "cover": "assets/presentation/cover.svg",
-        "screenshots": [
-          "assets/presentation/screenshot-library.svg",
-          "assets/presentation/screenshot-detail.svg"
-        ]
-      },
-      "description": "GameStation dissolves into the cover art: the game you point at fills the whole screen, the chrome is neutral glass that gets out of the way, and a square app-tile row floats up top. Calm, immersive, smooth — every bit of colour comes from the art, never the shell.",
-      "license": "Bundled",
-      "archive": {
-        "url": "https://unugames.github.io/unu-registry/themes/gamestation/dist/gamestation.unu",
-        "digest": "f57622a91b1aaceb66105eb3a0400db763653564e14b83ae6b585caa220e8c31"
-      }
-    },
-    {
-      "type": "theme",
-      "id": "xsquare",
-      "manifestId": "xsquare",
-      "name": "XSquare",
-      "version": "0.1.0",
-      "apiVersion": "v1",
-      "trust": "official",
-      "maintainer": "unu",
-      "summary": "An Xbox-inspired system dashboard: one decisive green, squared chrome, and a fast horizontal blade strip.",
-      "installSource": {
-        "path": "themes/xsquare"
-      },
-      "theme": {
-        "tags": [
-          "console",
-          "system",
-          "xbox",
-          "green"
-        ],
-        "categories": [
-          "Official",
-          "Console-inspired"
-        ],
-        "icon": "assets/presentation/icon.svg",
-        "cover": "assets/presentation/cover.svg",
-        "screenshots": [
-          "assets/presentation/screenshot-library.svg",
-          "assets/presentation/screenshot-detail.svg"
-        ]
-      },
-      "description": "XSquare sits on top of your cover art like an operating system — squared geometry, a single confident green for focus and active states, wide landscape blade tiles in a horizontal strip, and a dense, left-anchored readout. Motion snaps rather than glides. It renders only real game data.",
-      "license": "Bundled",
-      "archive": {
-        "url": "https://unugames.github.io/unu-registry/themes/xsquare/xsquare.unu",
-        "digest": "781d66e01bf76cf2decb473003e02944837f27a02e538162297a2862df9f3146"
-      }
-    },
-    {
-      "type": "theme",
-      "id": "nexusdeck",
-      "manifestId": "nexusdeck",
-      "name": "NexusDeck",
-      "version": "0.1.0",
-      "apiVersion": "v1",
-      "trust": "official",
-      "maintainer": "unu",
-      "summary": "A Heroic-inspired TV dashboard with a vertical system rail, poster wall library, and full-bleed game detail art.",
-      "installSource": {
-        "path": "themes/nexusdeck"
-      },
-      "theme": {
-        "tags": [
-          "console",
-          "heroic",
-          "tv",
-          "poster-grid"
-        ],
-        "categories": [
-          "Official",
-          "Console-inspired"
-        ],
-        "icon": "assets/presentation/icon.svg",
-        "cover": "assets/presentation/cover.svg",
-        "screenshots": [
-          "assets/presentation/screenshot-library.svg",
-          "assets/presentation/screenshot-detail.svg"
-        ]
-      },
-      "description": "NexusDeck blends the reference screens into a couch launcher: a dim left rail, centered poster grid, vivid magenta focus, glassy footer chrome, and cinematic detail pages where real game art carries the scene.",
-      "license": "Bundled",
-      "archive": {
-        "url": "https://unugames.github.io/unu-registry/themes/nexusdeck/nexusdeck.unu",
-        "digest": "a9fa3c0c1cd782fa471570105d6fcfc1a96ca2b9117a3f987d2bece3961f204a"
+        "digest": "4bd20901788a0e573a68556579c5606ac19b326d9956049c444a2c77221d807c"
       }
     }
   ]

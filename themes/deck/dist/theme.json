@@ -1,7 +1,7 @@
 {
   "id": "deck",
   "name": "Deck",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "apiVersion": "v1",
   "entry": "index.html",
   "presentation": {
@@ -18,10 +18,10 @@
     ],
     "license": "Bundled",
     "icon": "assets/presentation/icon.png",
-    "cover": "assets/presentation/cover.png",
+    "cover": "assets/presentation/screenshot-installed.png",
     "screenshots": [
-      "assets/presentation/screenshot-library.png",
-      "assets/presentation/screenshot-detail.png"
+      "assets/presentation/screenshot-installed.png",
+      "assets/presentation/screenshot-library.png"
     ]
   },
   "backgroundColor": "#0a0e14",
