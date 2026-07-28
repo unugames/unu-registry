@@ -318,7 +318,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/deck/dist/deck.unu",
-        "digest": "efd8448e883d9166f9e7099eb317b3346487acca44192a6e84b42b1527188206"
+        "digest": "5b332bcb418124185a60f86534c0144b71804b0e87b7045a5f6a05c33935eb18"
       }
     },
     {
@@ -355,7 +355,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/grey/grey.unu",
-        "digest": "27138d039d6d739ab92dcde4cbc9bf0340f79c3d20fee6bd7a1dbeeb53dc64b9"
+        "digest": "2a42f6d8b85c4c841f9d5f3988a821ea56295367a582f65742f70c82cd769a63"
       }
     }
   ]
