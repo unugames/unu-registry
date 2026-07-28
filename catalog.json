@@ -219,7 +219,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/providers/ubisoft-plus/ubisoft-plus.unu",
-        "digest": "9b5e1a0809c42fdd5c3e70bd78d0a7446fc2be0c23334d37d823d6f1bdd58047"
+        "digest": "8e55130edba4b48805f92eae2ebd4950c65d53e9e490b2e64d19a558cfd54a2b"
       }
     },
     {
@@ -251,7 +251,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/providers/ubisoft-connect/ubisoft-connect.unu",
-        "digest": "eecc97c216d51cd485e28b50dc4551b769d159136003cc444bd24534b28aeb05"
+        "digest": "df0dbb9adc3c70a524364baedde09ed1c92055b123b7b16712ed13d5cec612fa"
       }
     },
     {
@@ -282,7 +282,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/sounds/unu-soft/unu-soft.unu",
-        "digest": "e5ec53a582afb05becfd1d20ca516d560e40b4b97022c34e14b2045eda4b9137"
+        "digest": "8cd72b9c00a13d1c11c8badbeb9fa7ac036b1dad95ac2833de8add33ae1f59fc"
       }
     },
     {
@@ -318,7 +318,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/deck/dist/deck.unu",
-        "digest": "5ca3199a4efe9429af0cf12ede9f218e705a3293f540fd1a17bd5b958e9c4fb0"
+        "digest": "efd8448e883d9166f9e7099eb317b3346487acca44192a6e84b42b1527188206"
       }
     },
     {
@@ -355,7 +355,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/grey/grey.unu",
-        "digest": "6409e7769edbb591732114a1cb2ae16084e0892af046e7794726c98cb6aaf219"
+        "digest": "27138d039d6d739ab92dcde4cbc9bf0340f79c3d20fee6bd7a1dbeeb53dc64b9"
       }
     }
   ]
