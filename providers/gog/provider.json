@@ -1,0 +1,47 @@
+{
+  "id": "gog",
+  "name": "GOG",
+  "kind": "library",
+  "apiVersion": "v1",
+  "entry": "index.js",
+  "capabilities": {
+    "uriSchemes": [
+      "goggalaxy"
+    ],
+    "registry": {
+      "keys": [
+        "HKLM\\SOFTWARE\\WOW6432Node\\GOG.com\\Games"
+      ]
+    },
+    "http": {
+      "hosts": [
+        "embed.gog.com"
+      ]
+    },
+    "webview": {
+      "urls": [
+        "www.gog.com"
+      ]
+    }
+  },
+  "operations": [
+    "discover",
+    "launch",
+    "authenticate",
+    "install",
+    "uninstall"
+  ],
+  "settings": [
+    {
+      "key": "gogCookies",
+      "label": "GOG session",
+      "type": "string",
+      "required": false,
+      "secret": true
+    }
+  ],
+  "presentation": {
+    "icon": "assets/icon.png",
+    "cover": "assets/cover.png"
+  }
+}

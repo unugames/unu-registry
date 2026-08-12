@@ -28,7 +28,7 @@
       "key": "installRoot",
       "label": "Xbox app games install folder",
       "help": "Same local install folder as the Microsoft Store provider -- required so Xbox Game Pass can detect installed titles independently and offer Launch instead of only a Store link. The Xbox app lets you pick which drive to install games on; \"XboxGames\" is created at that drive's root, so change this if you installed to a drive other than C:.",
-      "type": "string",
+      "type": "folder",
       "required": true,
       "default": "C:\\XboxGames",
       "secret": false

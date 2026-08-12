@@ -2,6 +2,70 @@
   "packages": [
     {
       "type": "provider",
+      "id": "amazon",
+      "manifestId": "amazon",
+      "name": "Amazon Games",
+      "version": "1.0.3",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Requires Amazon Games app; discovers and launches locally installed titles.",
+      "installSource": {
+        "path": "providers/amazon"
+      },
+      "provider": {
+        "kind": "library",
+        "recommendedForOnboarding": true,
+        "tags": [
+          "storefront",
+          "library",
+          "launch"
+        ],
+        "categories": [
+          "Library"
+        ]
+      },
+      "description": "Requires the Amazon Games app to be installed. Reads only its bounded local installation database, then returns URI launch descriptions for the core to execute. Owned-library sync is pending support for the client's DPAPI-protected entitlement cache.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/providers/amazon/amazon.unu",
+        "digest": "2170e208fd5b9c4b0923656059408cfa3f204c56849c7b478441c2f8c167ded0"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "gog",
+      "manifestId": "gog",
+      "name": "GOG",
+      "version": "1.1.2",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Discover installed and owned games from GOG.",
+      "installSource": {
+        "path": "providers/gog"
+      },
+      "provider": {
+        "kind": "library",
+        "recommendedForOnboarding": true,
+        "tags": [
+          "storefront",
+          "library",
+          "launch"
+        ],
+        "categories": [
+          "Library"
+        ]
+      },
+      "description": "Reads installed GOG games from the bounded Windows registry key and, after sign-in, overlays the owned library through GOG's APIs. Actions are descriptions executed by the core.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/providers/gog/gog.unu",
+        "digest": "b6064a64c606bccbfe402fc57351c8e0982fd694f90385f454126d67a3b3a3fd"
+      }
+    },
+    {
+      "type": "provider",
       "id": "steam",
       "manifestId": "steam",
       "name": "Steam",
@@ -29,7 +93,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/providers/steam/steam.unu",
-        "digest": "76093df3256a77dce429ee11d12683d9b21f2976cc9e9154d0c1f2479d2ddee3"
+        "digest": "dc8fbddccd9d54093e0cac51d87c7bfd78cc4b5f3f2b003ec865d5893c80f8c1"
       }
     },
     {
@@ -157,7 +221,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/providers/microsoft-store/microsoft-store.unu",
-        "digest": "00cc000edc4df0592f0ecad57f5d88abe40c3cdf573a9f3cc40f9b49530d5591"
+        "digest": "3f395ccf8476d3c37674aa27787149b171a732449642c93ea774ee2ca11bd145"
       }
     },
     {
@@ -188,7 +252,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/providers/xbox-game-pass/xbox-game-pass.unu",
-        "digest": "77d22a88d6cb7bab96778c97b4c8fdb14c943f54dc8685da675365ea1c0d4679"
+        "digest": "06320270878c7be5e796a6e9de3ec6ca18b1f82131bbb9db2cf078cbb64b7e0e"
       }
     },
     {

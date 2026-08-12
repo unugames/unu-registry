@@ -1,0 +1,28 @@
+{
+  "id": "amazon",
+  "name": "Amazon Games",
+  "kind": "library",
+  "apiVersion": "v1",
+  "entry": "index.js",
+  "capabilities": {
+    "fs": {
+      "scopes": []
+    },
+    "knownPaths": {
+      "names": [
+        "home"
+      ]
+    },
+    "uriSchemes": [
+      "amazon-games"
+    ]
+  },
+  "operations": [
+    "discover",
+    "launch"
+  ],
+  "presentation": {
+    "icon": "assets/icon.png",
+    "cover": "assets/cover.png"
+  }
+}
