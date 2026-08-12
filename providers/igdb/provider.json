@@ -17,6 +17,7 @@
     "genre",
     "developer",
     "releaseYear",
+    "releaseDate",
     "rating",
     "cover",
     "background"
