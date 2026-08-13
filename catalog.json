@@ -66,6 +66,38 @@
     },
     {
       "type": "provider",
+      "id": "local-folder",
+      "manifestId": "local-folder",
+      "name": "Local Folder",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "trust": "official",
+      "maintainer": "unu",
+      "summary": "Discover installed games from up to four folders you point at, no storefront required.",
+      "installSource": {
+        "path": "providers/local-folder"
+      },
+      "provider": {
+        "kind": "library",
+        "recommendedForOnboarding": false,
+        "tags": [
+          "library",
+          "local",
+          "launch"
+        ],
+        "categories": [
+          "Library"
+        ]
+      },
+      "description": "Scans up to four user-approved folders (for example one per disk), one level deep, for installed Windows games: each subfolder is treated as a game and its most likely .exe is picked (with manual overrides available). No account, no network, no ownership claim beyond what is found on disk.",
+      "license": "Bundled",
+      "archive": {
+        "url": "https://unugames.github.io/unu-registry/providers/local-folder/local-folder.unu",
+        "digest": "cf4579cee739e0895123f0a387c0d30ae0eba3065f4c7ed346b8a980caf06806"
+      }
+    },
+    {
+      "type": "provider",
       "id": "steam",
       "manifestId": "steam",
       "name": "Steam",

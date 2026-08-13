@@ -1,0 +1,78 @@
+{
+  "id": "local-folder",
+  "name": "Local Folder",
+  "kind": "library",
+  "apiVersion": "v1",
+  "entry": "index.js",
+  "capabilities": {
+    "fs": {
+      "scopes": []
+    }
+  },
+  "operations": [
+    "discover",
+    "launch"
+  ],
+  "settings": [
+    {
+      "key": "gameFolder",
+      "label": "Games folder",
+      "type": "folder",
+      "required": true,
+      "secret": false,
+      "help": "Scanned one level deep: each subfolder here is treated as one game, and its most likely .exe is launched."
+    },
+    {
+      "key": "gameFolder2",
+      "label": "Games folder 2 (optional)",
+      "type": "folder",
+      "required": false,
+      "secret": false,
+      "help": "A second games folder -- for example on another disk. Scanned the same way as the first."
+    },
+    {
+      "key": "gameFolder3",
+      "label": "Games folder 3 (optional)",
+      "type": "folder",
+      "required": false,
+      "secret": false,
+      "help": "A third games folder, scanned the same way as the first."
+    },
+    {
+      "key": "gameFolder4",
+      "label": "Games folder 4 (optional)",
+      "type": "folder",
+      "required": false,
+      "secret": false,
+      "help": "A fourth games folder, scanned the same way as the first."
+    },
+    {
+      "key": "ignore",
+      "label": "Ignore folders containing",
+      "type": "string",
+      "required": false,
+      "secret": false,
+      "help": "Semicolon-separated, case-insensitive substrings of folder names to skip entirely (defaults to common redistributable/installer folder names). Applies across every configured games folder."
+    },
+    {
+      "key": "hidden",
+      "label": "Hidden folders",
+      "type": "string",
+      "required": false,
+      "secret": false,
+      "help": "Semicolon-separated exact folder names to exclude from the library. Applies across every configured games folder."
+    },
+    {
+      "key": "executables",
+      "label": "Executable overrides",
+      "type": "string",
+      "required": false,
+      "secret": false,
+      "help": "Semicolon-separated FolderName=relative/path/to/game.exe overrides for folders where the wrong executable was picked. Applies across every configured games folder."
+    }
+  ],
+  "presentation": {
+    "icon": "assets/icon.png",
+    "cover": "assets/cover.png"
+  }
+}
