@@ -63,6 +63,14 @@
       "help": "Semicolon-separated exact folder names to exclude from the library. Applies across every configured games folder."
     },
     {
+      "key": "titles",
+      "label": "Title overrides",
+      "type": "string",
+      "required": false,
+      "secret": false,
+      "help": "Semicolon-separated FolderName=Title pairs that replace the cleaned folder name as the game's title. Applies across every configured games folder."
+    },
+    {
       "key": "executables",
       "label": "Executable overrides",
       "type": "string",
