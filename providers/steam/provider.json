@@ -38,7 +38,8 @@
     "launch",
     "authenticate",
     "install",
-    "uninstall"
+    "uninstall",
+    "achievements"
   ],
   "settings": [
     {
@@ -51,6 +52,13 @@
     {
       "key": "steamAccessToken",
       "label": "Steam access token",
+      "type": "string",
+      "required": false,
+      "secret": true
+    },
+    {
+      "key": "steamWebApiKey",
+      "label": "Steam Web API key (optional)",
       "type": "string",
       "required": false,
       "secret": true

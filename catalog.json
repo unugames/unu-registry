@@ -121,11 +121,11 @@
           "Library"
         ]
       },
-      "description": "Reads your local Steam installation and authenticated Steam library through unu's provider sandbox. Launch, install, and uninstall actions are still described by the provider and executed by the core.",
+      "description": "Reads your local Steam installation and authenticated Steam library through unu's provider sandbox. Launch, install, and uninstall actions are still described by the provider and executed by the core. Achievements need only your Steam login; a Steam Web API key is an optional alternative.",
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/providers/steam/steam.unu",
-        "digest": "dc8fbddccd9d54093e0cac51d87c7bfd78cc4b5f3f2b003ec865d5893c80f8c1"
+        "digest": "2c9f7388084e961eb5c6c90b02d52dfd26b897107e18ffd961524074b0c86c9c"
       }
     },
     {
@@ -414,7 +414,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/deck/dist/deck.unu",
-        "digest": "18e80b737cb71199d9576f77402f64fe5e09f2be0cf4d3b0141dfc61952bab9f"
+        "digest": "927fdd59da93e0a0daaa6e508627680e2558148ac35c6bcc122b175e5c50a34f"
       }
     },
     {
@@ -451,7 +451,7 @@
       "license": "Bundled",
       "archive": {
         "url": "https://unugames.github.io/unu-registry/themes/grey/grey.unu",
-        "digest": "9940e71924bfbed0acb3446d002b8125d0eda56127f37c37c4543a1e9c984928"
+        "digest": "68e80c48656b52d4211f9526b56552829288dd63e88a0de48942a8a1104a3b3e"
       }
     }
   ]
