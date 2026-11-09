@@ -4,6 +4,10 @@
   "version": "0.1.4",
   "apiVersion": "v1",
   "entry": "index.html",
+  "locales": [
+    "en",
+    "pt-BR"
+  ],
   "presentation": {
     "summary": "A dense couch dashboard with hero art, shelves, and gamepad-first controls.",
     "description": "Deck uses large media, compact metadata, and quick library filters for a console-style launcher surface.",

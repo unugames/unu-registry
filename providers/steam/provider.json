@@ -59,6 +59,9 @@
     {
       "key": "steamWebApiKey",
       "label": "Steam Web API key (optional)",
+      "labelKey": "core.settings.provider.steam.steamWebApiKey.label",
+      "help": "Optional alternative for loading your unlocked achievements. Leave blank to use your Steam sign-in.",
+      "helpKey": "core.settings.provider.steam.steamWebApiKey.help",
       "type": "string",
       "required": false,
       "secret": true
