@@ -27,7 +27,12 @@
   },
   "locales": [
     "en",
-    "pt-BR"
+    "pt-BR",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "nl"
   ],
   "backgroundColor": "#1c1c1f",
   "systemStyle": {

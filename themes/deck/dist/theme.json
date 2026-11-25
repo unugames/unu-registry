@@ -6,7 +6,12 @@
   "entry": "index.html",
   "locales": [
     "en",
-    "pt-BR"
+    "pt-BR",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "nl"
   ],
   "presentation": {
     "summary": "A dense couch dashboard with hero art, shelves, and gamepad-first controls.",
